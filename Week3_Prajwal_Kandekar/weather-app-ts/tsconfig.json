@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "outDir": "./dist",
+    "moduleResolution": "node", // This ensures module resolution is done in a Node.js way
+    "resolveJsonModule": true, // Allows importing JSON files
+    "isolatedModules": true, // Ensures that each file can be safely transpiled without relying on other files
+    "forceConsistentCasingInFileNames": true // Ensures consistent file naming
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
